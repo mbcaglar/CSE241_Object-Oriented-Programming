@@ -1,0 +1,21 @@
+all:Bigram.class
+BigramMap.class BigramDyn.class Mypair.class myException.class _mainTester.class
+
+Bigram.class:Bigram.java
+	javac Bigram.java
+
+BigramMap.class:BigramMap.java
+	javac BigramMap.java
+
+BigramDyn.class:BigramDyn.java
+	javac BigramDyn.java
+
+Mypair.class:Mypair.java
+	javac Mypair.java
+
+myException.class:myException.java
+	javac myException.java
+_mainTester.class:_mainTester.class.java
+	javac _mainTester.java
+clean:
+rm -f *.class
