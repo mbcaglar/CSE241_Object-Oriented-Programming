@@ -1,0 +1,104 @@
+mov #0, 30
+mov #1, 23
+mov #2, 4
+mov #3, 56
+mov #4, 34
+mov #5, 56
+mov #6, 89
+mov #7, 32
+mov #8, 45
+mov #9, 25
+mov r5, -8
+mov #0, r1
+mov #1, r2
+sub r2, r1
+jpn r2, 19
+mov #1 ,r1
+mov #2, r2
+jmp 23
+mov #1 ,r2
+mov r2, #0
+mov r1, #1
+mov #2, r2 
+sub r2, r1
+jpn r2, 28
+mov #2 ,r1
+mov #3, r2
+jmp 32
+mov #2, r2
+mov r2, #1
+mov r1, #2
+mov #3, r2 
+sub r2, r1
+jpn r2, 37
+mov #3, r1
+mov #4, r2
+jmp 41
+mov #3, r2
+mov r2, #2
+mov r1, #3
+mov #4, r2 
+sub r2, r1
+jpn r2, 46
+mov #4, r1
+mov #5, r2
+jmp 50
+mov #4, r2
+mov r2, #3
+mov r1, #4
+mov #5, r2 
+sub r2, r1
+jpn r2, 55
+mov #5, r1
+mov #6, r2
+jmp 59
+mov #5, r2
+mov r2, #4
+mov r1, #5
+mov #6, r2 
+sub r2, r1
+jpn r2, 64
+mov #6, r1
+mov #7, r2
+jmp 68
+mov #6, r2
+mov r2, #5
+mov r1, #6
+mov #7, r2 
+sub r2, r1
+jpn r2, 73
+mov #7, r1
+mov #8, r2
+jmp 77
+mov #7, r2
+mov r2, #6
+mov r1, #7
+mov #8, r2 
+sub r2, r1
+jpn r2, 82
+mov #8, r1
+mov #9, r2
+jmp 86
+mov #8, r2
+mov r2, #7
+mov r1, #8
+mov #9, r2 
+sub r2, r1
+jpn r2, 89
+jmp 92
+mov #9, r2
+mov r2, #8
+mov r1, #9 
+add r5, 1
+jpn r5, 12
+prn #0
+prn #1
+prn #2
+prn #3
+prn #4
+prn #5
+prn #6
+prn #7
+prn #8
+prn #9
+hlt

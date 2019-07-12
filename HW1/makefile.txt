@@ -1,0 +1,12 @@
+all: hw1
+
+hw1: main.o
+	g++ main.o -o hw1
+main.o: main.cpp
+	g++ -c main.cpp
+run1:
+	./hw1 hw.txt 1
+run2:
+	./hw1 hw.txt 0
+clean:
+	rm *.o hw1

@@ -1,0 +1,3 @@
+MOV R1, 0
+MOV R2, 1
+HLT
